@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap');
+
 .blue{
 	background:white;
 }
@@ -26,8 +28,23 @@
 	border-radius: 10px;
 }
 
+.box{
+	z-index: 10;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .box h1{
 	font-family: arial;
+	font-family: 'Roboto Serif', sans-serif;
+}
+
+.box h1,
+.box h2{
+	margin-bottom: 50px;
 }
 
 .box h2{
@@ -60,6 +77,18 @@
 	padding: 17%;
 	text-align: center;
 	color: white;
+	position: relative;
+}
+
+.banner-shadow{
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 0.5;
+	padding: 10px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
 .present{
@@ -344,5 +373,28 @@ footer{
 		background:black;
 		color: white;
 		transition: 0.5s;
+}
 
+.meet-developer{
+	color: white;
+    background-color: #27a342;
+    padding: 20px;
+	display: block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	text-decoration: none !important;
+	border: 2px solid #27a342;
+	transition: .1s ease-in-out;
+}
+
+.meet-developer:hover{
+	background: white;
+	color: #27a342;
+}
+
+.meet-developer svg{
+	margin-right: 10px;
+	width: 20px;
 }
