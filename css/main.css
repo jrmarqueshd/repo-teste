@@ -414,6 +414,16 @@ footer{
 	color: rgb(218, 42, 42);
 }
 
+.buttons-area a.pose{
+	border: 2px solid rgb(251, 190, 47);
+	background: rgb(251, 190, 47);
+}
+
+.buttons-area a.pose:hover{
+	background: white;
+	color: rgb(251, 190, 47);
+}
+
 .buttons-area a svg{
 	margin-right: 10px;
 	width: 20px;
