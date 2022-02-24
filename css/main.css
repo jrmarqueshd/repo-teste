@@ -375,26 +375,46 @@ footer{
 		transition: 0.5s;
 }
 
-.meet-developer{
+.buttons-area{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.buttons-area a{
 	color: white;
     background-color: #27a342;
     padding: 20px;
 	display: block;
     border-radius: 5px;
-    margin-bottom: 20px;
 	display: flex;
 	align-items: center;
 	text-decoration: none !important;
 	border: 2px solid #27a342;
 	transition: .1s ease-in-out;
+	margin-right: 25px;
 }
 
-.meet-developer:hover{
+.buttons-area a:last-child{
+	margin-right: 0px;
+}
+
+.buttons-area a:hover{
 	background: white;
 	color: #27a342;
 }
 
-.meet-developer svg{
+.buttons-area a.daciolo{
+	border: 2px solid rgb(218, 42, 42);
+	background: rgb(218, 42, 42);
+}
+
+.buttons-area a.daciolo:hover{
+	background: white;
+	color: rgb(218, 42, 42);
+}
+
+.buttons-area a svg{
 	margin-right: 10px;
 	width: 20px;
 }
