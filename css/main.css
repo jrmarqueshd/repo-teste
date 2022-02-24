@@ -1,0 +1,348 @@
+.blue{
+	background:white;
+}
+
+.titlepage{
+	text-align: center;
+}
+
+.titlepage h3{
+	font-size: 40px;
+	padding-top: 5%;
+}
+.titlepage p{
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.nav{
+	padding: 15px;
+}
+
+.nav a{
+	color: white;
+	border-radius: 10px;
+}
+
+.box h1{
+	font-family: arial;
+}
+
+.box h2{
+	font-family: arial;
+	font-style: italic;
+}
+
+.nav a:hover{
+	transition: 0.5s;
+	background-color: #ffffffb5;
+	color: red;
+}
+
+.logo{
+	margin-right: 20px;
+}
+
+.logo img{
+	width: 5%;
+	float: left;
+}
+
+.naver{
+	background:black;
+}
+
+.banner{
+	background-image: url(../img/wall.jpg);
+	background-size: cover;
+	padding: 17%;
+	text-align: center;
+	color: white;
+}
+
+.present{
+	padding-top: 9%;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.anotherpost{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 9%;
+	padding-left: 9%;
+}
+
+.lastpost{
+		padding-top: 2%;
+	padding-bottom: 10%;
+	padding-right: 9%;
+	padding-left: 9%;
+}
+
+.bdog{
+	background-image: url(../img/bdog.jpg);
+	background-size: cover;
+}
+
+.fox{
+	background-image: url(../img/fox.jpg);
+	background-size: cover;
+}
+
+.bulldog{
+	background-image: url(../img/bulldog.jpg);
+	background-size: cover;
+}
+
+.textpres{
+	padding: 5%;
+	color: white;
+	background-color: black;
+	width: 20%;
+}
+
+.textoemsi{
+	padding: 10%;
+}
+
+.textoemsi h3{
+	font-size: 42px;
+}
+.textbox h3{
+	font-size: 25px;
+	font-weight: bolder;
+}
+.buttonbox button{
+	background-color: black;
+	color: white;
+}
+.propria{
+	font-family: arial;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 100%;
+}
+
+.call{
+	background-image: url(../img/loj.jpg);
+	background-size: cover;
+	padding: 10%;
+	margin-bottom: 5%;
+}
+
+.actionbox{
+	text-align: center;
+	background-color: #0000007a;
+	color: white;
+	padding: 5%;
+}
+
+.gallery{
+	padding: 10%;
+	text-align: center;
+}
+
+.imgbox{
+	padding: 5%;
+}
+.imgfix img{
+	width: 300px;
+	height: 300px;
+}
+
+footer{
+	text-align: center;
+	background:white;
+	color: black;
+}
+
+.luta{
+	padding: 5%;
+}
+.lutaimg{
+	background-image: url(../img/hoia.jpg);
+	background-size: cover;
+	padding: 25%;
+}
+
+.description{
+	text-align: center;
+	background: black;
+}
+
+.descbox{
+	padding-top:35%; 
+	color: white;
+}
+
+.watchfi{
+	margin-top:35%; 
+	background:white;
+	padding:10px;
+}
+
+ .watchfi button{
+ 	color:white;
+ 	background-color: black;
+ }
+
+.lutaimg2{
+	background-image: url(../img/fight.jpg);
+	background-size: cover;
+	padding: 25%;
+}
+.lutaimg3{
+	background-image: url(../img/aas.jpg);
+	background-size: cover;
+	padding: 25%;
+}
+
+.img1{
+	background-image: url(../img/rosn.jpg);
+	background-size: cover;
+	padding: 10%;
+	margin:10px;
+}
+
+.img2{
+	background-image: url(../img/raido.jpg);
+	background-size: cover;
+	padding: 10%;
+	margin:10px;
+}
+.img3{
+	background-image: url(../img/oi.jpg);
+	background-size: cover;
+	padding: 10%;
+	margin:10px;
+}
+.img4{
+	background-image: url(../img/cz.jpg);
+	background-size: cover;
+	padding: 5%;
+	margin:10px;
+}
+.img5{
+	background-image: url(../img/opa.jpg);
+	background-size: cover;
+	padding: 10%;
+	margin:10px;
+}
+
+.gallery{
+	background-color: black;
+	color: white;
+}
+
+.rank{
+	padding: 3%;
+}
+
+.placed{
+	background-color: black;
+	padding: 3%;
+}
+
+.imgranked img{
+	height: 250px;
+	width: 100%;
+}
+
+.textranked{
+	color: white;
+	font-family: arial;
+}
+
+.goldposition{
+	background: gold;
+	text-align: center;
+
+}
+
+.silverposition{
+	background: silver;
+	text-align: center;
+
+}
+
+.bronzeposition{
+	background: brown;
+	text-align: center;
+
+}
+
+.position{
+	background: purple;
+	text-align: center;
+
+}
+
+.goldposition h4{
+	color: black;
+	font-size: 30px;
+}
+
+.silverposition h4{
+	color: black;
+	font-size: 30px;
+}
+
+.bronzeposition h4{
+	color: black;
+	font-size: 30px;
+}
+
+.position h4{
+	color: black;
+	font-size: 30px;
+}
+
+.betbanner{
+	background-image: url(../img/dada.jpg);
+	padding: 2%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.betbox{
+	background: #00000094;
+	color: white;
+	padding: 10px;
+}
+
+.formboxx{
+	padding: 10px;
+	margin: 10px;
+	background: black;
+	color:white;
+}
+
+.footerlinks ul{
+	list-style: none;
+	background:black;
+	padding: 10px;
+}
+
+.footerlinks li{
+	display: inline-block;
+	margin-right: 20px;
+	background:white;
+	padding: 2px;
+}
+
+.footerlinks a{
+	color: black;
+	padding: 10px;
+}
+
+.footerlinks a:hover{
+		text-decoration:none;
+		background:black;
+		color: white;
+		transition: 0.5s;
+
+}
